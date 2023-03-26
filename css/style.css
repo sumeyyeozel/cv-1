@@ -236,6 +236,10 @@ ul {
   #skills {
     text-align: center;
   }
+
+  h2 {
+    font-family: "Montserrat";
+    line-height: 0.70;
 }
 
 /* MEDIA ENDS */
@@ -255,6 +259,7 @@ a.text-primary:hover, a.text-primary:focus {
     display: none !important;
     text-align: center;
   }
+
   .d-md-inline {
     display: inline !important;
     text-align: center;
