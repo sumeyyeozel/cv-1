@@ -1,0 +1,335 @@
+.navbar-nav {
+  margin-left: auto;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #EEEEEE;
+}
+
+.container-fluid {
+  padding: 0% 15% 0%;
+}
+
+
+
+
+
+/* Navigation Bar */
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 12px;
+}
+
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+/* Navigation Bar Ends */
+
+
+/* Title Buttons */
+
+#together-text {
+  font-size: 1.1rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+#title-con {
+  padding: 3% 15% 9%;
+  padding-top: 5.7rem;
+}
+
+#p-info {
+  font-weight: 100;
+}
+
+#hello {
+font-family: "Montserrat";
+font-size: 2.87rem;
+line-height: 1.2;
+font-weight: 400;
+
+}
+
+.skills-text {
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+
+h2 {
+font-family: "Montserrat";
+font-size: 3rem;
+line-height: 0.64;
+font-weight: 500;
+padding-top: 5%;
+}
+
+#h-title-info {
+  font-family: "Montserrat";
+  line-height: 1.42;
+  font-weight: 400;
+  color: #545454;
+  text-align: justify;
+}
+
+
+/* Title Buttons End */
+
+
+/* Title image */
+
+.oa-pp {
+  width: 70%;
+  border: 0.2px solid;
+  /* padding-top: 15%; */
+}
+
+/* Title image ends */
+
+
+/* SKILL */
+/*#skills {
+  background-color: #30343a;
+  padding: 9% 15%;
+}/*/
+
+#together {
+  background-color: #EEEEEE;
+  padding: 4% 15%;
+  padding-bottom: 9%;
+}
+
+#skills {
+  background-color: #EEEEEE;
+  padding: 6% 10%;
+}
+
+#d-skill {
+  color: #58B530;
+}
+
+td {
+  text-align: center;
+}
+
+#title-d {
+  color: #d9d9d9;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+hr {
+  /* border: dotted #EAF6F6 6px; */
+  border: dotted #30343a 7px;
+  border-bottom: none;
+  width: 4%;
+  margin: 30px auto;
+  margin-bottom: 60px;
+}
+
+.hr-section {
+background-color: #EEEEEE;
+ padding: 1px;
+}
+
+
+/* rgba(9, 84, 132) */
+
+.p-skils {
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #737373;
+  line-height: 2;
+}
+
+.skill-box {
+  text-align: center;
+  /* padding: 5%; */
+}
+
+ul {
+  list-style-type: none;
+}
+
+.fas-skill {
+  color: #efefef;
+  margin-bottom: 1rem;
+}
+
+.table-p {
+  margin-left: 15px;
+  text-align: center;
+}
+
+
+
+/* SKILL ENDS */
+
+
+/* FOOTER SECTION */
+#footer {
+  padding: 7% 15%;
+  padding-top: 43;
+  padding-bottom: 45;
+  text-align: center;
+  background-color: #343a40;
+}
+
+#p-footer {
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #C5C5C5;
+}
+
+.fas-footer {
+  margin: 20px 10px;
+  font-size: 146%;
+  /* color: #f8f9fa; */
+  color: #C5C5C5;
+}
+
+
+/* FOOTER SECTION ENDS */
+
+
+
+/* MEDIA */
+@media (max-width: 991px) {
+
+  #hello {
+    padding-top: 9%;
+    text-align: center;
+  }
+
+  .second-div-title {
+    text-align: center;
+  }
+
+  .skill-box {
+    padding: 6%;
+  }
+
+  .fas-skill {
+    font-size: 50px;
+  }
+
+  #skills {
+    text-align: center;
+  }
+}
+
+/* MEDIA ENDS */
+
+/* EDU-CSS */
+
+.text-primary {
+  color: #0BCEAF !important;
+}
+
+a.text-primary:hover, a.text-primary:focus {
+  color: #078571 !important;
+}
+
+@media (min-width: 991px) {
+  .d-md-none {
+    display: none !important;
+    text-align: center;
+  }
+  .d-md-inline {
+    display: inline !important;
+    text-align: center;
+  }
+  .d-md-inline-block {
+    display: inline-block !important;
+    text-align: center;
+  }
+  .d-md-block {
+    display: block !important;
+    text-align: center;
+  }
+  .d-md-table {
+    display: table !important;
+    text-align: center;
+  }
+  .d-md-table-row {
+    display: table-row !important;
+    text-align: center;
+  }
+  .d-md-table-cell {
+    display: table-cell !important;
+    text-align: center;
+  }
+  .d-md-flex {
+    display: flex !important;
+    text-align: center;
+  }
+  .d-md-inline-flex {
+    display: inline-flex !important;
+    text-align: center;
+  }
+}
+
+}
+.d-md-flex {
+  display: flex !important;
+}
+
+.mb-4,
+.my-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.mb-1,
+.my-1 {
+  margin-bottom: 0.25rem !important;
+}
+
+.mb-2,
+.my-2 {
+  margin-bottom: 0.5rem !important;
+}
+
+.pt-5,
+.py-5 {
+  padding-top: 3rem !important;
+}
+  
+.font-weight-bold {
+  font-family: "Montserrat";
+  font-weight: 400 !important; 
+  color: black;
+
+.pt-2,
+.py-2 {
+  padding-top: 0.5rem !important;
+}
+
+.pl-4,
+.px-4 {
+  padding-left: 1.5rem !important;
+}
+
+.mb-4,
+.my-4 {
+  margin-bottom: 1.5rem !important;
+}
